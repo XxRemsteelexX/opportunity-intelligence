@@ -34,15 +34,13 @@ Des Moines, Iowa (Polk County). Chose it as a representative mid-size market wit
 - Two low-rated for-profit facilities running well below 85% occupancy, which is where a new entrant could compete
 - Chi-square test confirms significant link between ownership type and rating tier (p = 0.0067)
 
-**Generated visualizations**
+![Demographics and Ratings](output/demographics_and_ratings.png)
 
-The pipeline produces four analytical charts and an executive briefing:
+![Market Analysis](output/market_analysis.png)
 
-- `demographics_and_ratings.png` - Senior population by age bracket and facility quality rating distribution
-- `market_analysis.png` - Rating vs occupancy scatter, bed capacity by ownership, facilities ranked by occupancy, quality by ownership type
-- `analysis_results.png` - Correlation heatmap (rating/staffing/occupancy/beds), occupancy by ownership boxplot, demand pressure breakdown, multi-dimensional quality comparison
-- `anomaly_detection.png` - Z-score anomaly detection across numeric columns with critical/warning/info tiers
-- `briefing.md` - 622-word executive briefing with citation tags tracing every claim to its source
+![Analysis Results](output/analysis_results.png)
+
+![Anomaly Detection](output/anomaly_detection.png)
 
 **Future work**
 
